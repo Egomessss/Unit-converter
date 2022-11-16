@@ -1,0 +1,83 @@
+html {
+  background-color: rgb(218, 213, 206);
+}
+
+#container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(212, 211, 211);
+  width: 500px;
+  height: 600px;
+  margin: auto;
+  border: 6px solid white;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  box-sizing: border-box;
+  
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 5px;
+  width: 470px;
+  height: 40%;
+  background-color: rgb(152, 75, 224);
+  border-radius: 8px;
+}
+
+h1{
+  font-size: 1.6rem;
+  color: white;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+
+}
+
+#length, #volume, #mass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: auto;
+  height: 105px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+section p{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+input {
+  background: none;
+  border: 2px solid white;
+  width: 6rem;
+  height: 4rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 5px solid white;
+}
